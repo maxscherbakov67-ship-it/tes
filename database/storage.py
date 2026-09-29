@@ -1,4 +1,5 @@
 import aiosqlite
+import math
 
 DB_PATH = "userprompts.db"
 PER_PAGE = 8
@@ -50,8 +51,8 @@ async def init_db() -> None:
         await db.execute("CREATE INDEX IF NOT EXISTS idx_prompts_user ON custom_prompts(user_id)")
         await db.commit()
 
-def total_pages(total: int, per_page: int = PER_PAGE) -> int:
-    return max(1, -(total // per_page))
+def total_pages(total: int, per_page: int=PER_PAGE) -> int:
+    return max(1, math.ceil(total / per_page))
 def clamp_page(page: int, total: int) -> int:
     return min(max(page, 0), total_pages(total) - 1)
 

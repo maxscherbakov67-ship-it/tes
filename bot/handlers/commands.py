@@ -164,25 +164,28 @@ async def cmd_settings(callback: CallbackQuery, state: FSMContext):
     callback_data = callback.data
     await state.set_state(bst.settings)
     await callback.message.edit_text(settings_msg, reply_markup=settings_keyboard())
+    await callback.answer()
 #ПОСТАВИТЬ/ВЫБРАТЬ ПРОМПТ
 @router.callback_query(bst.settings, F.data == "set_prompt")
 async def cmd_set_prompt(callback: CallbackQuery, state: FSMContext):
     callback_data = callback.data
     await state.set_state(bst.set_prompt)
     await callback.message.edit_text(set_prompt_msg, reply_markup=set_prompt_keyboard())
+    await callback.answer()
 #СОЗДАТЬ ПРОМПТ
 @router.callback_query(bst.set_prompt)
 async def cmd_create_prompt(callback: CallbackQuery, state: FSMContext):
     callback_data = callback.data
     await state.set_state(bst.create_prompt)
     await callback.message.edit_text(create_prompt_msg, reply_markup=create_prompt_keyboard())
+    await callback.answer()
 #ВЫБРАТЬ ЛЛМ/МОДЕЛЬ
 @router.callback_query(bst.settings, F.data == "choose_llm")
 async def cmd_choose_llm(callback: CallbackQuery, state: FSMContext):
     callback_data = callback.data
     await state.set_state(bst.choose_llm)
     await callback.message.edit_text(choose_llm_msg, reply_markup=choose_llm_keyboard())
-
+    await callback.answer()
 
 
 #МЕНЮ ДИАЛОГОВ/ЧАТОВ 
@@ -191,21 +194,25 @@ async def cmd_start_conversation(callback: CallbackQuery, state: FSMContext):
     callback_data = callback.data
     await state.set_state(bst.conversation_menu)
     await callback.message.edit_text(start_conversation_msg, reply_markup=start_conversation_keyboard())
+    await callback.answer()
 #ВЫБОР РЕЖИМА
 @router.callback_query(bst.conversation_menu)
 async def cmd_choose_mode(callback: CallbackQuery, state:FSMContext):
     callback_data = callback.data
     await state.set_state(bst.choose_mode)
     await callback.message.edit_text(choose_mode_msg, reply_markup=choose_mode_keyboard())
+    await callback.answer()
 #НОВЫЙ ДИАЛОГ/ЧАТ
 @router.callback_query(bst.conversation_menu)
 async def cmd_new_conversation(callback: CallbackQuery, state:FSMContext):
     callback_data = callback.data
     await state.set_state(bst.new_conversation)
     await callback.message.edit_text(new_conversation_msg, reply_markup=new_conversation_keyboard())
+    await callback.answer()
 #ПРЕДЫДУЩИЕ ДИАЛОГИ/ЧАТЫ
 @router.callback_query(bst.conversation_menu)
 async def cmd_previous_conversations(callback: CallbackQuery, state:FSMContext):
     callback_data = callback.data
     await state.set_state(bst.previous_conversations)
     await callback.message.edit_text(previous_conversations__msg, reply_markup=previous_conversations_keyboard())
+    await callback.answer()
