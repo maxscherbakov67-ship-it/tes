@@ -128,11 +128,13 @@ async def set_system_prompt(chat_id: int, prompt: str) -> None:
 # КАСТОМНЫЕ ПРОМПТЫ
 
 async def add_custom_prompt(user_id: int, title: str, text: str) -> int:
-    async with  aiosqlite.connect(DB_PATH) as db:
+    async with aiosqlite.connect(DB_PATH) as db:
         cur = await db.execute(
-            "SELECT COUNT(*) FROM custom_prompts WHERE user_id =?", (user_id,)
+            "INSERT INTO custom_prompts (user_id, title, text) VALUES (?, ?, ?)",
+            (user_id, title, text),
         )
-        return (await cur.fetchone())[0]
+        await db.commit()
+        return cur.lastrowid
 
 async def get_custom_prompts_page(user_id: int, page: int, per_page: int = PER_PAGE):
     async with aiosqlite.connect(DB_PATH) as db:
@@ -151,7 +153,7 @@ async def get_custom_prompt(user_id: int, prompt_id : int):
             "SELECT * FROM custom_prompts WHERE id = ? AND user_id = ?",
             (prompt_id, user_id),
         )
-        await db.commit()
+        return await cur.fetchone()
 
 # ---------- Активный чат ----------
 

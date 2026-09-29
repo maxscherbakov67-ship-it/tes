@@ -3,15 +3,18 @@ from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
 import logging
 from config import load_config
+from bot.handlers import commands
+from database.storage import init_db
 
 config = load_config()
 async def main():
+    await init_db()
     storage = MemoryStorage()
     bot = Bot(token=config.bot_token)
     dp = Dispatcher(storage=storage)
 
-    #dp.include_router
-    await dp.start_polling()
+    dp.include_router(commands.router)
+    await dp.start_polling(bot)
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, filename="last.log", filemode="a",

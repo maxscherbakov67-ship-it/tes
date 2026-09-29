@@ -27,7 +27,7 @@ prompts_kb
 )
 from bot.states import Botstate as bst
 from bot.states import PromptForm
-import database.storage
+from database import storage
 
 router = Router()
 
@@ -165,7 +165,7 @@ async def cmd_settings(callback: CallbackQuery, state: FSMContext):
     await state.set_state(bst.settings)
     await callback.message.edit_text(settings_msg, reply_markup=settings_keyboard())
 #ПОСТАВИТЬ/ВЫБРАТЬ ПРОМПТ
-@router.callback_query(bst.settings)
+@router.callback_query(bst.settings, F.Data == "set_prompt")
 async def cmd_set_prompt(callback: CallbackQuery, state: FSMContext):
     callback_data = callback.data
     await state.set_state(bst.set_prompt)
@@ -177,7 +177,7 @@ async def cmd_create_prompt(callback: CallbackQuery, state: FSMContext):
     await state.set_state(bst.create_prompt)
     await callback.message.edit_text(create_prompt_msg, reply_markup=create_prompt_keyboard())
 #ВЫБРАТЬ ЛЛМ/МОДЕЛЬ
-@router.callback_query(bst.settings)
+@router.callback_query(bst.settings, F.Data == "choose_llm")
 async def cmd_choose_llm(callback: CallbackQuery, state: FSMContext):
     callback_data = callback.data
     await state.set_state(bst.choose_llm)
@@ -199,13 +199,13 @@ async def cmd_choose_mode(callback: CallbackQuery, state:FSMContext):
     await callback.message.edit_text(choose_mode_msg, reply_markup=choose_mode_keyboard())
 #НОВЫЙ ДИАЛОГ/ЧАТ
 @router.callback_query(bst.conversation_menu)
-async def cmd_new_conversation(callback: CallbackQuery, state:FSMContext))
+async def cmd_new_conversation(callback: CallbackQuery, state:FSMContext)
     callback_data = callback.data
     await state.set_state(bst.new_conversation)
     await callback.message.edit_text(new_conversation_msg, reply_markup=new_conversation_keyboard())
 #ПРЕДЫДУЩИЕ ДИАЛОГИ/ЧАТЫ
 @router.callback_query(bst.conversation_menu)
-async def cmd_previous_conversations(callback: CallbackQuery, state:FSMContext))
+async def cmd_previous_conversations(callback: CallbackQuery, state:FSMContext)
     callback_data = callback.data
     await state.set_state(bst.previous_conversations)
     await callback.message.edit_text(previous_conversations__msg, reply_markup=previous_conversations_keyboard())

@@ -21,7 +21,7 @@ def add_pagination(builder: InlineKeyboardBuilder, page: int, pages: int, make_c
     nav = []
     if page > 0:
         nav.append(InlineKeyboardButton(text="Назад", callback_data=make_cb(page - 1)))
-    nav.append(InlineKeyboardButton text=f("{page + 1}/{pages}", callback_data="noop"))
+    nav.append(InlineKeyboardButton(text=f"{page + 1}/{pages}", callback_data="noop"))
     if page < pages - 1:
         nav.append(InlineKeyboardButton(text="Вперёд", callback_data=make_cb(page + 1)))
     builder.row(*nav)
@@ -49,7 +49,7 @@ def chats_kb(chats, active_id: int | None, page: int, pages: int) -> InlineKeybo
     return builder.as_markup()
 
 def prompts_kb(customs, page: int, pages: int) -> InlineKeyboardMarkup:
-    builder = InlineKeyboardBuilder
+    builder = InlineKeyboardBuilder()
 
     for pid, (title, _) in PRESET_PROMPTS.items():
         builder.button(text=title, callback_data=PromptCB(action="preset", id=pid, page=page))
@@ -59,10 +59,18 @@ def prompts_kb(customs, page: int, pages: int) -> InlineKeyboardMarkup:
         builder.row(
             InlineKeyboardButton(
                 text=f"⭐ {p['title']}",
-                callback_data=PromptCB(action="custom", id =p["id"], page=page).pack(),
-                
-                )
+                callback_data=PromptCB(action="custom", id=p["id"], page=page).pack(),
+            ),
+            InlineKeyboardButton(
+                text="🗑",
+                callback_data=PromptCB(action="delete", id=p["id"], page=page).pack(),
+            ),
         )
+    add_pagination(builder, page, pages, lambda p: PromptCB(action="page", page=p).pack())
+    builder.row(
+        InlineKeyboardButton(text="✏️ Свой промпт", callback_data=PromptCB(action="new").pack())
+    )
+    return builder.as_markup()
 
 def main_menu_keyboard() -> InlineKeyboardMarkup:
     keyboard = [
