@@ -6,7 +6,6 @@ from config import load_config
 from bot.handlers import commands
 from database.storage import init_db
 
-config = load_config()
 async def main():
     await init_db()
     storage = MemoryStorage()
@@ -17,6 +16,7 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+    config = load_config()
     logging.basicConfig(level=logging.INFO, filename="last.log", filemode="a",
                         format="%(name)s%(asctime)s %(levelname)s %(message)s")
     asyncio.run(main())
