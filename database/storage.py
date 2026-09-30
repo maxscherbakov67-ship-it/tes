@@ -160,6 +160,11 @@ async def count_custom_prompts(user_id: int) -> int:
     async with aiosqlite.connect(DB_PATH) as db:
         cur = await db.execute("SELECT COUNT(*) FROM custom_prompts WHERE user_id = ?", (user_id,))
         return (await cur.fetchone())[0]
+    
+async def delete_custom_prompt(user_id: int, prompt_id: int) -> None:
+    async with aiosqlite.connect(DB_PATH) as db:
+        await db.execute("DELETE FROM custom_prompts WHERE id = ? AND user_id = ?", (prompt_id, user_id))
+        await db.commit()
 
 # ---------- Активный чат ----------
 

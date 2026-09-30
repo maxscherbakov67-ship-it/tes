@@ -29,6 +29,17 @@ from bot.states import Botstate as bst
 from bot.states import PromptForm
 from database import storage
 
+BACK_ROUTES = {
+    bst.help.state:                   (bst.start, welcome_msg, main_menu_keyboard),
+    bst.settings.state:               (bst.start, welcome_msg, main_menu_keyboard),
+    bst.conversation_menu.state:      (bst.start, welcome_msg, main_menu_keyboard),
+    bst.set_prompt.state:             (bst.settings, settings_msg, settings_keyboard),
+    bst.choose_llm.state:             (bst.settings, settings_msg, settings_keyboard),
+    bst.choose_mode.state:            (bst.conversation_menu, start_conversation_msg, start_conversation_keyboard),
+    bst.new_conversation.state:       (bst.conversation_menu, start_conversation_msg, start_conversation_keyboard),
+    bst.previous_conversations.state: (bst.conversation_menu, start_conversation_msg, start_conversation_keyboard),
+}
+
 router = Router()
 
 @router.callback_query(F.data == "noop")
@@ -152,10 +163,16 @@ async def cmd_start(message, state: FSMContext):
     await state.set_state(bst.start)
     await message.answer(welcome_msg, reply_markup=main_menu_keyboard())
 #ХЕЛП
+@router.callback_query(bst.start, F.data == "help")
 @router.message(Command("help"))
-async def cmd_help(message, state: FSMContext):
+async def cmd_help(event: Message | CallbackQuery, state: FSMContext):
     await state.set_state(bst.help)
-    await message.answer(help_msg, reply_markup=goback_keyboard())
+    if isinstance(event, CallbackQuery):
+        await event.message.edit_text(help_msg, reply_markup=goback_keyboard())
+        await event.answer()
+    else:
+        await CallbackQuery.message.edit_text(help_msg, reply_markup=goback_keyboard())
+        await CallbackQuery.answer()
 
 
 #НАСТРОЙКИ
@@ -173,7 +190,7 @@ async def cmd_set_prompt(callback: CallbackQuery, state: FSMContext):
     await callback.message.edit_text(set_prompt_msg, reply_markup=set_prompt_keyboard())
     await callback.answer()
 #СОЗДАТЬ ПРОМПТ
-@router.callback_query(bst.set_prompt)
+@router.callback_query(bst.set_prompt, F.data == "create_prompt")
 async def cmd_create_prompt(callback: CallbackQuery, state: FSMContext):
     callback_data = callback.data
     await state.set_state(bst.create_prompt)
@@ -196,23 +213,36 @@ async def cmd_start_conversation(callback: CallbackQuery, state: FSMContext):
     await callback.message.edit_text(start_conversation_msg, reply_markup=start_conversation_keyboard())
     await callback.answer()
 #ВЫБОР РЕЖИМА
-@router.callback_query(bst.conversation_menu)
+@router.callback_query(bst.conversation_menu, F.data == "choose_mode")
 async def cmd_choose_mode(callback: CallbackQuery, state:FSMContext):
     callback_data = callback.data
     await state.set_state(bst.choose_mode)
     await callback.message.edit_text(choose_mode_msg, reply_markup=choose_mode_keyboard())
     await callback.answer()
 #НОВЫЙ ДИАЛОГ/ЧАТ
-@router.callback_query(bst.conversation_menu)
+@router.callback_query(bst.conversation_menu, F.data == "new_conversation")
 async def cmd_new_conversation(callback: CallbackQuery, state:FSMContext):
     callback_data = callback.data
     await state.set_state(bst.new_conversation)
     await callback.message.edit_text(new_conversation_msg, reply_markup=new_conversation_keyboard())
     await callback.answer()
 #ПРЕДЫДУЩИЕ ДИАЛОГИ/ЧАТЫ
-@router.callback_query(bst.conversation_menu)
+@router.callback_query(bst.conversation_menu, F.data == "previous_conversations")
 async def cmd_previous_conversations(callback: CallbackQuery, state:FSMContext):
     callback_data = callback.data
     await state.set_state(bst.previous_conversations)
     await callback.message.edit_text(previous_conversations_msg, reply_markup=previous_conversations_keyboard())
     await callback.answer()
+
+
+#ВЫЙТИ НАЗАД
+@router.callback_query(F.data.in_({"back", "goback", "back_to_start"}))
+async def cb_back(callback: CallbackQuery, state: FSMContext):
+    current = await state.get_state()          # например "Botstate:settings"
+    route = BACK_ROUTES.get(current)
+    if route is None:
+        return await callback.answer()         # уже в главном меню — ничего не делаем
+    parent_state, text, keyboard = route
+    await state.set_state(parent_state)
+    await callback.message.edit_text(text, reply_markup=keyboard())
+    await callback.answer()     

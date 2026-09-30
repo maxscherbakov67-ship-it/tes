@@ -1,0 +1,335 @@
+aiogram.dispatcher2026-09-30 14:20:12,205 INFO Start polling
+aiogram.dispatcher2026-09-30 14:20:15,614 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-09-30 14:21:48,123 INFO Update id=987252894 is handled. Duration 18776 ms by bot id=8882652437
+aiogram.dispatcher2026-09-30 14:22:22,245 WARNING Received SIGINT signal
+aiogram.dispatcher2026-09-30 14:22:22,246 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-09-30 14:22:22,247 INFO Polling stopped
+aiogram.dispatcher2026-09-30 14:29:02,545 INFO Start polling
+aiogram.dispatcher2026-09-30 14:29:22,912 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-09-30 14:29:23,836 INFO Update id=987252896 is handled. Duration 724 ms by bot id=8882652437
+aiogram.event2026-09-30 14:29:23,865 INFO Update id=987252895 is handled. Duration 755 ms by bot id=8882652437
+aiogram.event2026-09-30 14:29:54,660 INFO Update id=987252897 is handled. Duration 2314 ms by bot id=8882652437
+aiogram.event2026-09-30 14:30:16,036 INFO Update id=987252898 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.event2026-09-30 14:30:41,683 INFO Update id=987252899 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.event2026-09-30 14:30:56,620 INFO Update id=987252900 is handled. Duration 477 ms by bot id=8882652437
+aiogram.event2026-09-30 14:31:26,266 INFO Update id=987252901 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.dispatcher2026-09-30 14:32:57,105 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-09-30 14:32:57,107 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-09-30 14:33:08,733 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-09-30 14:44:14,378 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-09-30 14:44:14,379 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-09-30 14:44:22,281 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.event2026-09-30 14:44:28,027 INFO Update id=987252902 is handled. Duration 5744 ms by bot id=8882652437
+aiogram.event2026-09-30 14:44:33,258 INFO Update id=987252903 is handled. Duration 1895 ms by bot id=8882652437
+aiogram.event2026-09-30 14:44:34,975 INFO Update id=987252904 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.event2026-09-30 14:44:34,976 ERROR Cause exception while process update id=987252904 by bot id=8882652437
+NameError: name 'choose_mode_msg' is not defined
+Traceback (most recent call last):
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 321, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 200, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 192, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/bot/handlers/commands.py", line 203, in cmd_choose_mode
+    await callback.message.edit_text(choose_mode_msg, reply_markup=choose_mode_keyboard())
+                                     ^^^^^^^^^^^^^^^
+NameError: name 'choose_mode_msg' is not defined
+aiogram.event2026-09-30 14:44:50,053 INFO Update id=987252905 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.event2026-09-30 14:45:13,000 INFO Update id=987252906 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.event2026-09-30 14:45:20,444 INFO Update id=987252907 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.event2026-09-30 14:45:26,075 INFO Update id=987252908 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.event2026-09-30 14:52:11,497 INFO Update id=987252909 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.event2026-09-30 14:52:25,190 INFO Update id=987252910 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.dispatcher2026-09-30 14:57:58,399 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-09-30 14:57:58,400 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-09-30 14:58:09,637 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-09-30 16:04:48,609 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-09-30 16:04:48,609 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-09-30 16:05:00,315 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-09-30 16:11:24,664 WARNING Received SIGINT signal
+aiogram.dispatcher2026-09-30 16:11:24,666 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-09-30 16:11:24,666 INFO Polling stopped
+aiogram.dispatcher2026-09-30 16:11:43,457 INFO Start polling
+aiogram.dispatcher2026-09-30 16:11:53,177 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-09-30 16:12:02,790 INFO Update id=987252911 is handled. Duration 8897 ms by bot id=8882652437
+aiogram.event2026-09-30 16:12:08,062 INFO Update id=987252912 is handled. Duration 886 ms by bot id=8882652437
+aiogram.event2026-09-30 16:12:12,976 INFO Update id=987252913 is handled. Duration 430 ms by bot id=8882652437
+aiogram.event2026-09-30 16:12:14,668 INFO Update id=987252914 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.event2026-09-30 16:12:22,339 INFO Update id=987252915 is handled. Duration 707 ms by bot id=8882652437
+aiogram.event2026-09-30 16:12:24,139 INFO Update id=987252916 is handled. Duration 445 ms by bot id=8882652437
+aiogram.event2026-09-30 16:12:24,960 INFO Update id=987252917 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.event2026-09-30 16:12:51,316 INFO Update id=987252918 is handled. Duration 211 ms by bot id=8882652437
+aiogram.event2026-09-30 16:12:54,601 INFO Update id=987252919 is handled. Duration 598 ms by bot id=8882652437
+aiogram.dispatcher2026-09-30 16:16:09,374 WARNING Received SIGINT signal
+aiogram.dispatcher2026-09-30 16:16:09,377 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-09-30 16:16:09,377 INFO Polling stopped
+aiogram.dispatcher2026-09-30 16:16:12,277 INFO Start polling
+aiogram.dispatcher2026-09-30 16:16:25,733 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-09-30 16:16:40,517 INFO Update id=987252920 is handled. Duration 14598 ms by bot id=8882652437
+aiogram.event2026-09-30 16:16:45,580 INFO Update id=987252921 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.dispatcher2026-09-30 16:17:39,953 WARNING Received SIGINT signal
+aiogram.dispatcher2026-09-30 16:17:39,954 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-09-30 16:17:39,954 INFO Polling stopped
+aiogram.dispatcher2026-09-30 16:17:42,802 INFO Start polling
+aiogram.dispatcher2026-09-30 16:17:51,867 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-09-30 16:18:00,811 INFO Update id=987252922 is handled. Duration 8754 ms by bot id=8882652437
+aiogram.event2026-09-30 16:18:03,690 INFO Update id=987252923 is handled. Duration 209 ms by bot id=8882652437
+aiogram.event2026-09-30 16:18:08,911 INFO Update id=987252924 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.event2026-09-30 16:18:14,519 INFO Update id=987252925 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.event2026-09-30 16:18:20,206 INFO Update id=987252926 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.event2026-09-30 16:18:29,779 INFO Update id=987252927 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.dispatcher2026-09-30 16:19:40,602 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-09-30 16:19:40,602 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-09-30 16:19:46,895 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.event2026-09-30 16:19:46,899 INFO Update id=987252929 is not handled. Duration 3 ms by bot id=8882652437
+aiogram.event2026-09-30 16:19:46,900 INFO Update id=987252928 is not handled. Duration 4 ms by bot id=8882652437
+aiogram.event2026-09-30 16:19:46,900 INFO Update id=987252930 is not handled. Duration 3 ms by bot id=8882652437
+aiogram.event2026-09-30 16:19:55,361 INFO Update id=987252931 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.dispatcher2026-09-30 16:20:01,827 WARNING Received SIGINT signal
+aiogram.dispatcher2026-09-30 16:20:01,828 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-09-30 16:20:01,828 INFO Polling stopped
+aiogram.dispatcher2026-09-30 16:20:08,930 INFO Start polling
+aiogram.dispatcher2026-09-30 16:20:13,364 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-09-30 16:20:18,138 INFO Update id=987252932 is handled. Duration 1598 ms by bot id=8882652437
+aiogram.event2026-09-30 16:20:20,758 INFO Update id=987252933 is handled. Duration 270 ms by bot id=8882652437
+aiogram.event2026-09-30 16:20:22,527 INFO Update id=987252934 is handled. Duration 543 ms by bot id=8882652437
+aiogram.event2026-09-30 16:20:23,466 INFO Update id=987252935 is handled. Duration 384 ms by bot id=8882652437
+aiogram.event2026-09-30 16:20:25,324 INFO Update id=987252936 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.event2026-09-30 16:20:50,392 INFO Update id=987252937 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.event2026-09-30 16:20:54,476 INFO Update id=987252938 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.dispatcher2026-09-30 16:24:29,562 WARNING Received SIGINT signal
+aiogram.dispatcher2026-09-30 16:24:29,577 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-09-30 16:24:29,581 INFO Polling stopped
+aiogram.dispatcher2026-09-30 16:28:48,356 INFO Start polling
+aiogram.dispatcher2026-09-30 16:28:50,217 WARNING Received SIGINT signal
+aiogram.dispatcher2026-09-30 16:28:50,218 INFO Polling stopped
+aiogram.dispatcher2026-09-30 16:28:52,867 INFO Start polling
+aiogram.dispatcher2026-09-30 16:29:09,528 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-09-30 16:29:09,932 INFO Update id=987252939 is handled. Duration 274 ms by bot id=8882652437
+aiogram.event2026-09-30 16:29:12,563 INFO Update id=987252940 is handled. Duration 299 ms by bot id=8882652437
+aiogram.event2026-09-30 16:29:16,759 INFO Update id=987252941 is handled. Duration 449 ms by bot id=8882652437
+aiogram.dispatcher2026-09-30 16:29:54,551 WARNING Received SIGINT signal
+aiogram.dispatcher2026-09-30 16:29:54,552 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-09-30 16:29:54,552 INFO Polling stopped
+aiogram.dispatcher2026-09-30 16:30:02,964 INFO Start polling
+aiogram.dispatcher2026-09-30 16:30:03,311 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-09-30 16:30:43,553 INFO Update id=987252942 is handled. Duration 34788 ms by bot id=8882652437
+aiogram.event2026-09-30 16:30:47,830 INFO Update id=987252943 is handled. Duration 299 ms by bot id=8882652437
+aiogram.event2026-09-30 16:30:49,660 INFO Update id=987252944 is handled. Duration 296 ms by bot id=8882652437
+aiogram.event2026-09-30 16:31:03,557 INFO Update id=987252945 is handled. Duration 139 ms by bot id=8882652437
+aiogram.dispatcher2026-09-30 16:32:03,342 WARNING Received SIGINT signal
+aiogram.dispatcher2026-09-30 16:32:03,343 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-09-30 16:32:03,343 INFO Polling stopped
+aiogram.dispatcher2026-09-30 16:32:06,291 INFO Start polling
+aiogram.dispatcher2026-09-30 16:32:22,670 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-09-30 16:32:23,378 INFO Update id=987252946 is handled. Duration 606 ms by bot id=8882652437
+aiogram.event2026-09-30 16:32:26,633 INFO Update id=987252947 is handled. Duration 325 ms by bot id=8882652437
+aiogram.event2026-09-30 16:32:28,780 INFO Update id=987252948 is handled. Duration 334 ms by bot id=8882652437
+aiogram.event2026-09-30 16:32:30,598 INFO Update id=987252949 is handled. Duration 306 ms by bot id=8882652437
+aiogram.event2026-09-30 16:32:31,819 INFO Update id=987252950 is handled. Duration 238 ms by bot id=8882652437
+aiogram.event2026-09-30 16:32:33,139 INFO Update id=987252951 is handled. Duration 264 ms by bot id=8882652437
+aiogram.event2026-09-30 16:32:34,427 INFO Update id=987252952 is handled. Duration 242 ms by bot id=8882652437
+aiogram.event2026-09-30 16:32:35,856 INFO Update id=987252953 is handled. Duration 482 ms by bot id=8882652437
+aiogram.event2026-09-30 16:32:36,804 INFO Update id=987252954 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.event2026-09-30 16:32:36,804 ERROR Cause exception while process update id=987252954 by bot id=8882652437
+NameError: name 'new_conversation_msg' is not defined
+Traceback (most recent call last):
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 321, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 200, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 192, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/bot/handlers/commands.py", line 226, in cmd_new_conversation
+    await callback.message.edit_text(new_conversation_msg, reply_markup=new_conversation_keyboard())
+                                     ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'new_conversation_msg' is not defined. Did you mean: 'start_conversation_msg'?
+aiogram.event2026-09-30 16:32:40,835 INFO Update id=987252955 is not handled. Duration 121 ms by bot id=8882652437
+aiogram.event2026-09-30 16:32:40,835 ERROR Cause exception while process update id=987252955 by bot id=8882652437
+TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+Traceback (most recent call last):
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 321, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 200, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 192, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/bot/handlers/commands.py", line 246, in cb_back
+    await callback.message.edit_text(text, reply_markup=keyboard())
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/methods/base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/client/bot.py", line 515, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/client/session/base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/client/session/aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/client/session/base.py", line 121, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+aiogram.event2026-09-30 16:32:49,113 INFO Update id=987252956 is handled. Duration 250 ms by bot id=8882652437
+aiogram.event2026-09-30 16:33:24,531 INFO Update id=987252957 is handled. Duration 254 ms by bot id=8882652437
+aiogram.dispatcher2026-09-30 16:33:48,040 WARNING Received SIGINT signal
+aiogram.dispatcher2026-09-30 16:33:48,041 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-09-30 16:33:48,041 INFO Polling stopped
