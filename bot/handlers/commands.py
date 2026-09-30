@@ -150,7 +150,7 @@ async def save_prompt(message: Message, state: FSMContext):
 @router.message(Command("start"))
 async def cmd_start(message, state: FSMContext):
     await state.set_state(bst.start)
-    await message.answer(welcome_msg, reply_markup=main_menu_keyboard)
+    await message.answer(welcome_msg, reply_markup=main_menu_keyboard())
 #ХЕЛП
 @router.message(Command("help"))
 async def cmd_help(message, state: FSMContext):
@@ -214,5 +214,5 @@ async def cmd_new_conversation(callback: CallbackQuery, state:FSMContext):
 async def cmd_previous_conversations(callback: CallbackQuery, state:FSMContext):
     callback_data = callback.data
     await state.set_state(bst.previous_conversations)
-    await callback.message.edit_text(previous_conversations__msg, reply_markup=previous_conversations_keyboard())
+    await callback.message.edit_text(previous_conversations_msg, reply_markup=previous_conversations_keyboard())
     await callback.answer()
