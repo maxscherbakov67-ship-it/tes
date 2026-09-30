@@ -171,8 +171,7 @@ async def cmd_help(event: Message | CallbackQuery, state: FSMContext):
         await event.message.edit_text(help_msg, reply_markup=goback_keyboard())
         await event.answer()
     else:
-        await CallbackQuery.message.edit_text(help_msg, reply_markup=goback_keyboard())
-        await CallbackQuery.answer()
+        await event.answer(help_msg, reply_markup=goback_keyboard())
 
 
 #НАСТРОЙКИ
