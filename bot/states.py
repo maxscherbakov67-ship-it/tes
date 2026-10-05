@@ -14,3 +14,9 @@ class Botstate(StatesGroup):
 
 class PromptForm(StatesGroup):
     waiting_text = State()
+    waiting_title = State()
+    rename_title = State()
+    edit_text = State()
+
+class RenameForm(StatesGroup):
+    waiting_title = State()

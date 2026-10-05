@@ -5,9 +5,11 @@ import logging
 from config import load_config
 from bot.handlers import commands
 from database.storage import init_db
+from services import llm_storage
 
 async def main():
     await init_db()
+    await llm_storage.init_llm_db()
     storage = MemoryStorage()
     bot = Bot(token=config.bot_token)
     dp = Dispatcher(storage=storage)

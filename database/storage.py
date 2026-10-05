@@ -2,7 +2,7 @@ import aiosqlite
 import math
 
 DB_PATH = "userprompts.db"
-PER_PAGE = 8
+PER_PAGE = 5
 
 PRESET_PROMPTS = {
     1: ("Переводчик", "Ты переводчик. Переводи любой текст на английский."),
@@ -126,6 +126,14 @@ async def set_system_prompt(chat_id: int, prompt: str) -> None:
         )
         await db.commit()
 
+async def rename_chat(user_id: int, chat_id: int, title: str) -> None:
+    async with aiosqlite.connect(DB_PATH) as db:
+        await db.execute(
+            "UPDATE chats SET title = ? WHERE id = ? AND user_id = ?",
+            (title, chat_id, user_id),
+        )
+        await db.commit()
+
 # КАСТОМНЫЕ ПРОМПТЫ
 
 async def add_custom_prompt(user_id: int, title: str, text: str) -> int:
@@ -156,6 +164,14 @@ async def get_custom_prompt(user_id: int, prompt_id : int):
         )
         return await cur.fetchone()
 
+async def update_custom_prompt_text(user_id: int, prompt_id: int, text: str) -> None:
+    async with aiosqlite.connect(DB_PATH) as db:
+        await db.execute(
+            "UPDATE custom_prompts SET text = ? WHERE id = ? AND user_id = ?",
+            (text, prompt_id, user_id),
+        )
+        await db.commit()
+
 async def count_custom_prompts(user_id: int) -> int:
     async with aiosqlite.connect(DB_PATH) as db:
         cur = await db.execute("SELECT COUNT(*) FROM custom_prompts WHERE user_id = ?", (user_id,))
@@ -164,6 +180,14 @@ async def count_custom_prompts(user_id: int) -> int:
 async def delete_custom_prompt(user_id: int, prompt_id: int) -> None:
     async with aiosqlite.connect(DB_PATH) as db:
         await db.execute("DELETE FROM custom_prompts WHERE id = ? AND user_id = ?", (prompt_id, user_id))
+        await db.commit()
+
+async def rename_custom_prompt(user_id: int, prompt_id: int, title: str) -> None:
+    async with aiosqlite.connect(DB_PATH) as db:
+        await db.execute(
+            "UPDATE custom_prompts SET title = ? WHERE id = ? AND user_id = ?",
+            (title, prompt_id, user_id),
+        )
         await db.commit()
 
 # ---------- Активный чат ----------

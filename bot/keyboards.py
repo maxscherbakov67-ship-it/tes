@@ -30,46 +30,77 @@ def chats_kb(chats, active_id: int | None, page: int, pages: int) -> InlineKeybo
     builder = InlineKeyboardBuilder()
     for chat in chats:
         mark = "✅ " if chat["id"] == active_id else ""
+        title = chat["title"]
+        if len(title) > 22:
+            title = title[:21] + "…"
         builder.row(
             InlineKeyboardButton(
-                text = f"{mark}{chat["title"]}",
-                callback_data=ChatCB(action="open", id= chat["id"], page=page).pack(),
+                text=f"{mark}{title}",
+                callback_data=ChatCB(action="open", id=chat["id"], page=page).pack(),
             ),
             InlineKeyboardButton(
-                text="🗑",
-                callback_data=ChatCB(action="delete", id= chat["id"], page=page).pack(),
+                text="⚙️",
+                callback_data=ChatCB(action="manage", id=chat["id"], page=page).pack(),
             ),
         )
     add_pagination(builder, page, pages, lambda p: ChatCB(action="page", page=p).pack())
     builder.row(
-        InlineKeyboardButton(
-            text="Новый чат", callback_data=ChatCB(action="new").pack()
-            )
-        )
+        InlineKeyboardButton(text="➕ Новый чат", callback_data=ChatCB(action="new").pack()),
+        InlineKeyboardButton(text="⬅️ Выйти назад", callback_data="back_to_start"),
+    )
+    return builder.as_markup()
+
+def chat_manage_kb(chat, page: int) -> InlineKeyboardMarkup:
+    builder = InlineKeyboardBuilder()
+    builder.row(InlineKeyboardButton(
+        text="✏️ Переименовать",
+        callback_data=ChatCB(action="rename", id=chat["id"], page=page).pack(),
+    ))
+    builder.row(InlineKeyboardButton(
+        text="🗑 Удалить",
+        callback_data=ChatCB(action="delete", id=chat["id"], page=page).pack(),
+    ))
+    builder.row(InlineKeyboardButton(
+        text="⬅️ К списку чатов",
+        callback_data=ChatCB(action="page", page=page).pack(),  # просто перерисует список
+    ))
     return builder.as_markup()
 
 def prompts_kb(customs, page: int, pages: int) -> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
-
     for pid, (title, _) in PRESET_PROMPTS.items():
         builder.button(text=title, callback_data=PromptCB(action="preset", id=pid, page=page))
+        builder.button(text="👁", callback_data=PromptCB(action="view", id=pid, page=page))
     builder.adjust(2)
 
     for p in customs:
+        title = p["title"]
+        if len(title) > 22:
+            title = title[:21] + "…"
         builder.row(
-            InlineKeyboardButton(
-                text=f"⭐ {p['title']}",
-                callback_data=PromptCB(action="custom", id=p["id"], page=page).pack(),
-            ),
-            InlineKeyboardButton(
-                text="🗑",
-                callback_data=PromptCB(action="delete", id=p["id"], page=page).pack(),
-            ),
+            InlineKeyboardButton(text=f"⭐ {title}", callback_data=PromptCB(action="custom", id=p["id"], page=page).pack()),
+            InlineKeyboardButton(text="⚙️", callback_data=PromptCB(action="manage", id=p["id"], page=page).pack()),
         )
     add_pagination(builder, page, pages, lambda p: PromptCB(action="page", page=p).pack())
     builder.row(
-        InlineKeyboardButton(text="✏️ Свой промпт", callback_data=PromptCB(action="new").pack())
+        InlineKeyboardButton(text="✏️ Свой промпт", callback_data=PromptCB(action="new").pack()),
+        InlineKeyboardButton(text="⬅️ Выйти назад", callback_data="back_to_start"),
     )
+    return builder.as_markup()
+
+def prompt_manage_kb(prompt, page: int) -> InlineKeyboardMarkup:
+    builder = InlineKeyboardBuilder()
+    builder.row(InlineKeyboardButton(text="✅ Применить", callback_data=PromptCB(action="custom", id=prompt["id"], page=page).pack()))
+    builder.row(InlineKeyboardButton(text="✏️ Переименовать", callback_data=PromptCB(action="rename", id=prompt["id"], page=page).pack()))
+    builder.row(InlineKeyboardButton(text="📝 Изменить текст", callback_data=PromptCB(action="edit_text", id=prompt["id"], page=page).pack()))
+    builder.row(InlineKeyboardButton(text="🗑 Удалить", callback_data=PromptCB(action="delete", id=prompt["id"], page=page).pack()))
+    builder.row(InlineKeyboardButton(text="⬅️ К списку промптов", callback_data=PromptCB(action="page", page=page).pack()))
+    return builder.as_markup()
+
+def prompt_view_kb(pid: int, page: int) -> InlineKeyboardMarkup:
+    builder = InlineKeyboardBuilder()
+    builder.row(InlineKeyboardButton(text="✅ Применить", callback_data=PromptCB(action="preset", id=pid, page=page).pack()))
+    builder.row(InlineKeyboardButton(text="⬅️ К списку промптов", callback_data=PromptCB(action="page", page=page).pack()))
     return builder.as_markup()
 
 def main_menu_keyboard() -> InlineKeyboardMarkup:

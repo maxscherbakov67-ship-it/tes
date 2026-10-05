@@ -1,4 +1,4 @@
-welcome_msg = "Привет! Я бот даун ебанный. /help - помощь"
+welcome_msg = "Привет! Я бот даун глупый. /help - помощь"
 settings_msg = "⚙️ Настройки бота"
 help_msg = "📖 Справка по боту"
 start_conversation_msg = "💬 Меню диалогов"
