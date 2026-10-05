@@ -15,6 +15,10 @@ class PromptCB(CallbackData, prefix="prompt"):
     id: int = 0
     page: int = 0
 
+class ModelCB(CallbackData, prefix="model"):
+    action: str
+    id: int = 0
+
 def add_pagination(builder: InlineKeyboardBuilder, page: int, pages: int, make_cb) -> None:
     if pages <= 1:
         return
@@ -101,6 +105,17 @@ def prompt_view_kb(pid: int, page: int) -> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
     builder.row(InlineKeyboardButton(text="✅ Применить", callback_data=PromptCB(action="preset", id=pid, page=page).pack()))
     builder.row(InlineKeyboardButton(text="⬅️ К списку промптов", callback_data=PromptCB(action="page", page=page).pack()))
+    return builder.as_markup()
+
+def models_kb(models, active_id: int | None) -> InlineKeyboardMarkup:
+    builder = InlineKeyboardBuilder()
+    for m in models:
+        mark = "✅ " if m["id"] == active_id else ""
+        builder.row(InlineKeyboardButton(
+            text=f"{mark}{m['name']}",
+            callback_data=ModelCB(action="pick", id=m["id"]).pack(),
+        ))
+    builder.row(InlineKeyboardButton(text="⬅️ Выйти назад", callback_data="back_to_start"))
     return builder.as_markup()
 
 def main_menu_keyboard() -> InlineKeyboardMarkup:

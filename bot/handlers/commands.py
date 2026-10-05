@@ -28,6 +28,7 @@ new_conversation_keyboard,
 previous_conversations_keyboard,
 ChatCB,
 PromptCB,
+ModelCB,
 chats_kb,
 prompts_kb,
 chat_manage_kb,
@@ -38,6 +39,7 @@ models_kb
 from bot.states import Botstate as bst
 from bot.states import PromptForm, RenameForm
 from database import storage
+from services import llm_storage
 
 BACK_ROUTES = {
     bst.help.state:                   (bst.start, welcome_msg, main_menu_keyboard),
@@ -60,10 +62,10 @@ async def noop(call: CallbackQuery):
     await call.answer()
 
 async def render_models(user_id: int):
-    models = await storage.get_models()
+    models = await llm_storage.get_models()
     if not models:
         return "🤖 Моделей пока нет. Добавьте через add_model.py", None
-    current = await storage.get_user_model(user_id)
+    current = await llm_storage.get_user_model(user_id)
     return "🤖 Выберите модель:", models_kb(models, current["id"] if current else None)
 
     # ---------- Чаты ----------
@@ -86,7 +88,7 @@ async def cmd_chats(message: Message):
 
 
 @router.callback_query(ChatCB.filter())
-async def on_chat(call: CallbackQuery, callback_data: ChatCB):
+async def on_chat(call: CallbackQuery, callback_data: ChatCB, state: FSMContext):
     user_id = call.from_user.id
     page = callback_data.page
 
@@ -295,7 +297,7 @@ async def cmd_choose_llm(callback: CallbackQuery, state: FSMContext):
 @router.callback_query(ModelCB.filter())
 async def on_model(call: CallbackQuery, callback_data: ModelCB):
     if callback_data.action == "pick":
-        await storage.set_user_model(call.from_user.id, callback_data.id)
+        await llm_storage.set_user_model(call.from_user.id, callback_data.id)
         text, kb = await render_models(call.from_user.id)
         try:
             await call.message.edit_text(text, reply_markup=kb)
@@ -303,7 +305,6 @@ async def on_model(call: CallbackQuery, callback_data: ModelCB):
             pass
         return await call.answer("Модель выбрана")
     await call.answer()
-
 
 #СТАРТ
 @router.message(Command("start"))
@@ -343,13 +344,6 @@ async def cmd_create_prompt(callback: CallbackQuery, state: FSMContext):
     await state.set_state(bst.create_prompt)
     await callback.message.edit_text(create_prompt_msg, reply_markup=create_prompt_keyboard())
     await callback.answer()
-#ВЫБРАТЬ ЛЛМ/МОДЕЛЬ
-@router.callback_query(bst.settings, F.data == "choose_llm")
-async def cmd_choose_llm(callback: CallbackQuery, state: FSMContext):
-    callback_data = callback.data
-    await state.set_state(bst.choose_llm)
-    await callback.message.edit_text(choose_llm_msg, reply_markup=choose_llm_keyboard())
-    await callback.answer()
 
 
 #МЕНЮ ДИАЛОГОВ/ЧАТОВ 
@@ -360,7 +354,6 @@ async def cmd_start_conversation(callback: CallbackQuery, state: FSMContext):
     await callback.message.edit_text(start_conversation_msg, reply_markup=start_conversation_keyboard())
     await callback.answer()
 #ВЫБОР РЕЖИМА
-@router.callback_query(bst.conversation_menu, F.data == "choose_mode")
 @router.callback_query(bst.conversation_menu, F.data == "choose_mode")
 async def cmd_choose_mode(callback: CallbackQuery, state: FSMContext):
     await state.set_state(bst.choose_mode)
