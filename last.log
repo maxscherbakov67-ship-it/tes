@@ -2647,3 +2647,937 @@ aiogram.event2026-10-02 16:37:12,172 INFO Update id=987253204 is handled. Durati
 aiogram.dispatcher2026-10-02 16:40:46,855 WARNING Received SIGINT signal
 aiogram.dispatcher2026-10-02 16:40:46,856 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
 aiogram.dispatcher2026-10-02 16:40:46,856 INFO Polling stopped
+aiogram.dispatcher2026-10-05 10:46:45,592 INFO Start polling
+aiogram.dispatcher2026-10-05 10:46:49,157 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-10-05 10:47:50,955 INFO Update id=987253205 is handled. Duration 671 ms by bot id=8882652437
+aiogram.event2026-10-05 10:47:55,513 INFO Update id=987253206 is handled. Duration 229 ms by bot id=8882652437
+aiogram.event2026-10-05 10:47:57,873 INFO Update id=987253207 is handled. Duration 768 ms by bot id=8882652437
+aiogram.event2026-10-05 10:47:58,979 INFO Update id=987253208 is handled. Duration 453 ms by bot id=8882652437
+aiogram.event2026-10-05 10:48:00,232 INFO Update id=987253209 is handled. Duration 188 ms by bot id=8882652437
+aiogram.event2026-10-05 10:48:01,749 INFO Update id=987253210 is handled. Duration 193 ms by bot id=8882652437
+aiogram.event2026-10-05 10:48:02,834 INFO Update id=987253211 is handled. Duration 188 ms by bot id=8882652437
+aiogram.event2026-10-05 10:48:04,534 INFO Update id=987253212 is handled. Duration 154 ms by bot id=8882652437
+aiogram.event2026-10-05 10:48:06,376 INFO Update id=987253213 is handled. Duration 128 ms by bot id=8882652437
+aiogram.event2026-10-05 10:48:07,873 INFO Update id=987253214 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.dispatcher2026-10-05 14:17:54,773 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:17:54,823 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:17:55,831 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-05 14:17:55,831 WARNING Sleep for 1.267935 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:17:57,103 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-05 14:17:57,103 WARNING Sleep for 1.631010 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:17:58,738 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-05 14:17:58,738 WARNING Sleep for 2.006439 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:18:00,748 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-05 14:18:00,748 WARNING Sleep for 2.645235 seconds and try again... (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:18:03,398 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-05 14:18:03,398 WARNING Sleep for 3.394935 seconds and try again... (tryings = 5, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:19:17,719 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:19:17,720 WARNING Sleep for 4.595852 seconds and try again... (tryings = 6, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:20:32,719 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:20:32,720 WARNING Sleep for 5.156316 seconds and try again... (tryings = 7, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:21:48,719 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:21:48,719 WARNING Sleep for 5.048735 seconds and try again... (tryings = 8, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:23:04,719 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:23:04,719 WARNING Sleep for 5.094245 seconds and try again... (tryings = 9, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:24:20,719 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:24:20,720 WARNING Sleep for 5.031467 seconds and try again... (tryings = 10, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:25:36,719 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:25:36,720 WARNING Sleep for 5.050721 seconds and try again... (tryings = 11, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:26:52,719 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:26:52,720 WARNING Sleep for 4.779248 seconds and try again... (tryings = 12, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:28:07,719 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:28:07,720 WARNING Sleep for 5.092540 seconds and try again... (tryings = 13, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:29:23,719 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:29:23,720 WARNING Sleep for 4.939122 seconds and try again... (tryings = 14, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:30:38,719 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:30:38,720 WARNING Sleep for 5.043191 seconds and try again... (tryings = 15, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:31:54,719 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 14:31:54,720 WARNING Sleep for 4.976720 seconds and try again... (tryings = 16, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 14:32:10,563 INFO Connection established (tryings = 17, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:03:26,892 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-05 16:03:26,894 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:03:40,947 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:05:12,641 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 16:05:12,643 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:06:24,640 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 16:06:24,642 WARNING Sleep for 1.321052 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:07:36,640 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 16:07:36,641 WARNING Sleep for 1.807413 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:08:48,638 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 16:08:48,639 WARNING Sleep for 2.351722 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:09:01,961 INFO Connection established (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:12:40,637 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 16:12:40,640 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:12:52,091 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:27:19,622 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 16:27:19,625 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:27:36,633 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:45:13,630 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 16:45:13,633 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:46:25,627 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 16:46:25,629 WARNING Sleep for 1.165902 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:47:37,629 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 16:47:37,631 WARNING Sleep for 1.476377 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 16:47:49,814 INFO Connection established (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 17:31:50,135 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-05 17:31:50,136 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 17:47:51,774 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+aiogram.dispatcher2026-10-05 17:47:51,774 WARNING Sleep for 1.356237 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 18:16:47,870 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+aiogram.dispatcher2026-10-05 18:16:47,871 WARNING Sleep for 1.842831 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 18:17:10,719 INFO Connection established (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 18:27:43,810 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-05 18:27:43,811 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 18:27:55,217 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 19:35:44,080 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-05 19:35:44,082 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 19:35:46,036 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-05 19:35:46,036 WARNING Sleep for 1.369408 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 19:36:02,971 INFO Connection established (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 21:32:51,331 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 21:32:51,333 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 21:34:03,329 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 21:34:03,331 WARNING Sleep for 1.177378 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 21:35:15,333 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 21:35:15,335 WARNING Sleep for 1.548600 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 21:35:27,328 INFO Connection established (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:05:51,855 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-05 22:05:51,856 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:06:08,261 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:19:13,478 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:19:13,480 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:20:25,671 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:20:25,672 WARNING Sleep for 1.085172 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:21:37,672 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:21:37,674 WARNING Sleep for 1.344569 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:22:49,675 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:22:49,677 WARNING Sleep for 1.687348 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:24:01,674 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:24:01,676 WARNING Sleep for 2.254742 seconds and try again... (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:25:14,677 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:25:14,680 WARNING Sleep for 2.987100 seconds and try again... (tryings = 5, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:26:27,678 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:26:27,681 WARNING Sleep for 3.869720 seconds and try again... (tryings = 6, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:27:41,679 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:27:41,681 WARNING Sleep for 5.096635 seconds and try again... (tryings = 7, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:28:57,679 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:28:57,681 WARNING Sleep for 4.814422 seconds and try again... (tryings = 8, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:30:12,683 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:30:12,685 WARNING Sleep for 5.012198 seconds and try again... (tryings = 9, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:30:28,427 INFO Connection established (tryings = 10, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:35:02,689 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:35:02,691 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:36:14,688 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:36:14,689 WARNING Sleep for 1.397884 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:37:26,691 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:37:26,693 WARNING Sleep for 1.910705 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:38:38,690 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:38:38,692 WARNING Sleep for 2.385377 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:39:51,692 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-05 22:39:51,694 WARNING Sleep for 3.115778 seconds and try again... (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 22:40:05,129 INFO Connection established (tryings = 5, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 23:04:10,881 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-05 23:04:10,882 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 23:10:46,670 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-05 23:10:46,670 WARNING Sleep for 1.148951 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-05 23:10:58,801 INFO Connection established (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 00:55:00,405 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-06 00:55:00,405 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 01:12:39,950 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-06 01:12:39,951 WARNING Sleep for 1.276540 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 01:29:26,805 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-06 01:29:26,805 WARNING Sleep for 1.732498 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 02:03:47,136 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 02:03:47,136 WARNING Sleep for 2.109442 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 02:53:30,908 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-06 02:53:30,909 WARNING Sleep for 2.762365 seconds and try again... (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 03:44:06,643 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-06 03:44:06,643 WARNING Sleep for 3.659643 seconds and try again... (tryings = 5, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 04:35:14,042 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 04:35:14,042 WARNING Sleep for 4.674937 seconds and try again... (tryings = 6, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 05:03:13,246 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 05:03:13,247 WARNING Sleep for 5.078084 seconds and try again... (tryings = 7, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 05:18:51,948 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 05:18:51,948 WARNING Sleep for 5.034747 seconds and try again... (tryings = 8, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 05:48:39,973 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 05:48:39,974 WARNING Sleep for 4.848697 seconds and try again... (tryings = 9, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 06:21:54,318 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 06:21:54,319 WARNING Sleep for 4.973454 seconds and try again... (tryings = 10, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 06:37:45,244 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 06:37:45,244 WARNING Sleep for 5.084960 seconds and try again... (tryings = 11, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 06:53:48,953 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 06:53:48,954 WARNING Sleep for 4.881355 seconds and try again... (tryings = 12, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 07:21:55,727 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 07:21:55,727 WARNING Sleep for 4.982330 seconds and try again... (tryings = 13, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 07:53:06,827 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 07:53:06,827 WARNING Sleep for 5.149908 seconds and try again... (tryings = 14, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 08:21:51,676 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 08:21:51,677 WARNING Sleep for 5.094107 seconds and try again... (tryings = 15, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 08:56:01,035 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 08:56:01,035 WARNING Sleep for 4.786634 seconds and try again... (tryings = 16, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 09:23:25,592 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 09:23:25,593 WARNING Sleep for 4.957248 seconds and try again... (tryings = 17, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 09:58:02,936 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 09:58:02,938 WARNING Sleep for 4.861884 seconds and try again... (tryings = 18, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 10:22:36,051 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 10:22:36,052 WARNING Sleep for 4.907833 seconds and try again... (tryings = 19, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 11:08:12,052 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 11:08:12,053 WARNING Sleep for 4.902305 seconds and try again... (tryings = 20, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 11:26:01,682 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-06 11:26:01,683 WARNING Sleep for 5.097296 seconds and try again... (tryings = 21, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 11:43:07,753 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 11:43:07,754 WARNING Sleep for 5.170267 seconds and try again... (tryings = 22, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:09:10,724 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-06 12:09:10,724 WARNING Sleep for 5.011301 seconds and try again... (tryings = 23, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:16:08,288 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:16:08,291 WARNING Sleep for 5.081144 seconds and try again... (tryings = 24, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:17:24,287 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:17:24,288 WARNING Sleep for 5.021324 seconds and try again... (tryings = 25, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:18:40,289 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:18:40,290 WARNING Sleep for 4.972062 seconds and try again... (tryings = 26, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:19:55,291 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:19:55,292 WARNING Sleep for 5.015834 seconds and try again... (tryings = 27, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:21:11,322 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:21:11,323 WARNING Sleep for 4.864491 seconds and try again... (tryings = 28, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:22:26,331 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:22:26,336 WARNING Sleep for 5.039832 seconds and try again... (tryings = 29, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:23:42,330 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:23:42,331 WARNING Sleep for 5.019229 seconds and try again... (tryings = 30, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:24:58,332 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:24:58,333 WARNING Sleep for 4.897417 seconds and try again... (tryings = 31, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:26:13,334 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:26:13,335 WARNING Sleep for 4.857796 seconds and try again... (tryings = 32, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:27:28,336 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:27:28,336 WARNING Sleep for 4.885201 seconds and try again... (tryings = 33, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:28:43,338 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:28:43,340 WARNING Sleep for 5.083881 seconds and try again... (tryings = 34, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:29:59,341 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:29:59,342 WARNING Sleep for 4.997031 seconds and try again... (tryings = 35, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:31:15,342 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:31:15,344 WARNING Sleep for 4.910271 seconds and try again... (tryings = 36, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:32:30,348 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:32:30,351 WARNING Sleep for 4.894274 seconds and try again... (tryings = 37, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:33:45,350 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:33:45,352 WARNING Sleep for 5.155303 seconds and try again... (tryings = 38, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:35:01,364 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:35:01,366 WARNING Sleep for 5.030145 seconds and try again... (tryings = 39, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:36:17,367 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:36:17,370 WARNING Sleep for 4.936359 seconds and try again... (tryings = 40, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:37:32,369 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:37:32,374 WARNING Sleep for 4.936003 seconds and try again... (tryings = 41, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:38:47,371 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:38:47,374 WARNING Sleep for 5.000099 seconds and try again... (tryings = 42, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:40:03,373 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:40:03,376 WARNING Sleep for 4.897366 seconds and try again... (tryings = 43, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:40:20,073 INFO Connection established (tryings = 44, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:45:33,369 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:45:33,370 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:45:44,599 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:58:39,281 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 12:58:39,283 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:58:42,503 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-06 12:58:42,504 WARNING Sleep for 1.341100 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 12:58:54,137 INFO Connection established (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 13:19:55,305 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 13:19:55,308 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 13:21:07,307 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 13:21:07,308 WARNING Sleep for 1.402761 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 13:22:19,310 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 13:22:19,311 WARNING Sleep for 1.807079 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 13:22:31,383 INFO Connection established (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 13:22:31,392 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2711)
+aiogram.dispatcher2026-10-06 13:22:31,393 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 13:22:42,674 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 16:32:13,325 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 16:32:13,326 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 16:32:24,716 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 17:02:08,919 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 17:02:08,920 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 17:02:20,283 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 17:50:02,821 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 17:50:02,825 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 17:50:14,173 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 19:50:40,923 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2711)
+aiogram.dispatcher2026-10-06 19:50:40,925 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 19:50:52,687 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 23:22:19,919 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 23:22:19,921 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 23:22:31,248 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 23:40:20,225 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-06 23:40:20,226 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-06 23:40:31,448 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 00:49:41,832 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 00:49:41,834 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 00:49:53,156 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 04:21:06,063 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 04:21:06,065 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 04:21:09,095 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 04:21:09,096 WARNING Sleep for 1.506671 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 04:37:37,736 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 04:37:37,736 WARNING Sleep for 1.982576 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 04:37:41,742 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 04:37:41,742 WARNING Sleep for 2.667953 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 04:37:46,433 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 04:37:46,433 WARNING Sleep for 3.505992 seconds and try again... (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 04:37:51,954 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 04:37:51,955 WARNING Sleep for 4.558068 seconds and try again... (tryings = 5, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 04:54:55,618 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 04:54:55,618 WARNING Sleep for 5.121021 seconds and try again... (tryings = 6, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 05:05:55,562 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 05:05:55,562 WARNING Sleep for 4.955054 seconds and try again... (tryings = 7, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 05:06:02,540 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 05:06:02,541 WARNING Sleep for 5.165491 seconds and try again... (tryings = 8, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 05:13:17,190 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 05:13:17,191 WARNING Sleep for 4.960379 seconds and try again... (tryings = 9, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 07:28:23,649 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 07:28:23,651 WARNING Sleep for 5.077368 seconds and try again... (tryings = 10, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 07:44:36,838 INFO Connection established (tryings = 11, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 10:46:09,867 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 10:46:09,868 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 13:18:58,938 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 13:18:58,938 WARNING Sleep for 1.304957 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 15:51:01,675 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 15:51:01,676 WARNING Sleep for 1.734658 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 15:51:13,625 INFO Connection established (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 16:47:05,563 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 16:47:05,564 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 16:47:16,804 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 17:56:49,410 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 17:56:49,412 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 17:57:00,678 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:01:42,407 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:01:42,409 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:02:54,403 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:02:54,404 WARNING Sleep for 1.321097 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:04:06,405 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:04:06,408 WARNING Sleep for 1.810490 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:05:18,400 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:05:18,402 WARNING Sleep for 2.314288 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:06:31,400 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:06:31,401 WARNING Sleep for 2.837622 seconds and try again... (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:07:44,400 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:07:44,402 WARNING Sleep for 3.727731 seconds and try again... (tryings = 5, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:08:58,399 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:08:58,401 WARNING Sleep for 4.876263 seconds and try again... (tryings = 6, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:10:13,398 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:10:13,400 WARNING Sleep for 4.844032 seconds and try again... (tryings = 7, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:11:18,247 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 18:11:18,248 WARNING Sleep for 4.912615 seconds and try again... (tryings = 8, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:12:23,166 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 18:12:23,166 WARNING Sleep for 4.854448 seconds and try again... (tryings = 9, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:13:28,025 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 18:13:28,025 WARNING Sleep for 4.980221 seconds and try again... (tryings = 10, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:14:33,014 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 18:14:33,017 WARNING Sleep for 4.925034 seconds and try again... (tryings = 11, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:14:40,253 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 18:14:40,253 WARNING Sleep for 5.033546 seconds and try again... (tryings = 12, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:15:45,487 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-07 18:15:45,488 WARNING Sleep for 4.793221 seconds and try again... (tryings = 13, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:17:00,593 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:17:00,596 WARNING Sleep for 4.779731 seconds and try again... (tryings = 14, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:18:15,592 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:18:15,594 WARNING Sleep for 5.123735 seconds and try again... (tryings = 15, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:19:31,592 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:19:31,594 WARNING Sleep for 4.804078 seconds and try again... (tryings = 16, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:20:46,595 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:20:46,597 WARNING Sleep for 5.048697 seconds and try again... (tryings = 17, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:22:02,602 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:22:02,603 WARNING Sleep for 5.013450 seconds and try again... (tryings = 18, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:23:18,597 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:23:18,599 WARNING Sleep for 4.870311 seconds and try again... (tryings = 19, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:24:33,597 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:24:33,598 WARNING Sleep for 4.864679 seconds and try again... (tryings = 20, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:25:48,597 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:25:48,599 WARNING Sleep for 4.939126 seconds and try again... (tryings = 21, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:27:03,598 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:27:03,599 WARNING Sleep for 5.021032 seconds and try again... (tryings = 22, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:28:19,603 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:28:19,605 WARNING Sleep for 4.980221 seconds and try again... (tryings = 23, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:29:34,603 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:29:34,605 WARNING Sleep for 4.981285 seconds and try again... (tryings = 24, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:30:49,623 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:30:49,625 WARNING Sleep for 4.974053 seconds and try again... (tryings = 25, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:32:04,626 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:32:04,627 WARNING Sleep for 4.910020 seconds and try again... (tryings = 26, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:33:19,625 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:33:19,627 WARNING Sleep for 5.035606 seconds and try again... (tryings = 27, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:34:35,628 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:34:35,630 WARNING Sleep for 5.049041 seconds and try again... (tryings = 28, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:35:51,625 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:35:51,627 WARNING Sleep for 5.081365 seconds and try again... (tryings = 29, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:37:07,629 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:37:07,632 WARNING Sleep for 4.945529 seconds and try again... (tryings = 30, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:38:22,631 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:38:22,634 WARNING Sleep for 5.175773 seconds and try again... (tryings = 31, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:39:38,629 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:39:38,630 WARNING Sleep for 4.869515 seconds and try again... (tryings = 32, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:40:53,633 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:40:53,635 WARNING Sleep for 4.879830 seconds and try again... (tryings = 33, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:42:08,634 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:42:08,635 WARNING Sleep for 5.042290 seconds and try again... (tryings = 34, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:43:24,632 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:43:24,633 WARNING Sleep for 4.864074 seconds and try again... (tryings = 35, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:44:39,637 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:44:39,638 WARNING Sleep for 5.004914 seconds and try again... (tryings = 36, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:45:55,634 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:45:55,636 WARNING Sleep for 5.193493 seconds and try again... (tryings = 37, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:47:11,632 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:47:11,634 WARNING Sleep for 4.997630 seconds and try again... (tryings = 38, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:48:27,633 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:48:27,635 WARNING Sleep for 5.069706 seconds and try again... (tryings = 39, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:49:43,631 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:49:43,633 WARNING Sleep for 4.978090 seconds and try again... (tryings = 40, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:50:58,632 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:50:58,633 WARNING Sleep for 5.065867 seconds and try again... (tryings = 41, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:52:14,637 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:52:14,639 WARNING Sleep for 4.969750 seconds and try again... (tryings = 42, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:53:29,634 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:53:29,635 WARNING Sleep for 4.973880 seconds and try again... (tryings = 43, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:54:44,636 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:54:44,638 WARNING Sleep for 4.918475 seconds and try again... (tryings = 44, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:55:59,637 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:55:59,638 WARNING Sleep for 4.934194 seconds and try again... (tryings = 45, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:57:14,638 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:57:14,639 WARNING Sleep for 5.083477 seconds and try again... (tryings = 46, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:58:30,642 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 18:58:30,643 WARNING Sleep for 5.035599 seconds and try again... (tryings = 47, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 18:58:45,953 INFO Connection established (tryings = 48, bot id = 8882652437)
+aiogram.dispatcher2026-10-07 22:52:04,894 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-07 22:52:04,895 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 01:58:38,805 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 01:58:38,806 WARNING Sleep for 1.240790 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 03:54:32,476 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 03:54:32,478 WARNING Sleep for 1.823777 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 06:57:40,282 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 06:57:40,284 WARNING Sleep for 2.351081 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 10:17:35,391 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 10:17:35,392 WARNING Sleep for 2.996055 seconds and try again... (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 13:20:17,642 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 13:20:17,644 WARNING Sleep for 4.001520 seconds and try again... (tryings = 5, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 13:37:53,534 INFO Connection established (tryings = 6, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 14:58:11,441 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 14:58:11,442 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 14:58:22,666 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 15:04:05,440 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 15:04:05,443 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 15:05:17,441 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 15:05:17,442 WARNING Sleep for 1.293908 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 15:06:18,742 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-08 15:06:18,744 WARNING Sleep for 1.750997 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 15:07:20,500 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+aiogram.dispatcher2026-10-08 15:07:20,502 WARNING Sleep for 2.280677 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 15:07:33,018 INFO Connection established (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 15:29:52,450 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 15:29:52,452 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 15:30:03,753 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 15:50:02,448 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 15:50:02,451 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 15:51:14,447 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 15:51:14,448 WARNING Sleep for 1.269352 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 15:52:26,447 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 15:52:26,449 WARNING Sleep for 1.710478 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 15:52:38,457 INFO Connection established (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:11:19,720 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 17:11:19,722 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:11:31,540 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:15:57,218 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 17:15:57,221 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:17:09,214 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 17:17:09,217 WARNING Sleep for 1.481679 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:18:21,215 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 17:18:21,216 WARNING Sleep for 1.902943 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:19:33,219 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 17:19:33,221 WARNING Sleep for 2.527152 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:20:46,215 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 17:20:46,217 WARNING Sleep for 3.238682 seconds and try again... (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:22:00,219 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 17:22:00,222 WARNING Sleep for 4.113193 seconds and try again... (tryings = 5, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:23:15,216 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 17:23:15,218 WARNING Sleep for 5.034931 seconds and try again... (tryings = 6, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:23:30,480 INFO Connection established (tryings = 7, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:25:01,219 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 17:25:01,220 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:25:12,527 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:43:42,218 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 17:43:42,219 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 17:43:53,490 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 18:27:15,589 INFO Start polling
+aiogram.dispatcher2026-10-08 18:27:15,920 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-10-08 18:34:40,221 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 18:34:40,223 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 18:34:51,504 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 20:28:12,140 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 20:28:12,142 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 20:28:23,760 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 22:08:23,347 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 22:08:23,349 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 22:09:35,342 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 22:09:35,344 WARNING Sleep for 1.227386 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 22:10:47,344 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 22:10:47,345 WARNING Sleep for 1.484864 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 22:10:59,158 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2711)
+aiogram.dispatcher2026-10-08 22:10:59,159 WARNING Sleep for 1.865729 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 22:11:11,282 INFO Connection established (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 22:12:21,347 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 22:12:21,349 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 22:12:32,619 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.event2026-10-08 22:13:03,650 INFO Update id=987253215 is handled. Duration 312 ms by bot id=8882652437
+aiogram.event2026-10-08 22:13:21,504 INFO Update id=987253216 is handled. Duration 188 ms by bot id=8882652437
+aiogram.event2026-10-08 22:13:23,089 INFO Update id=987253217 is handled. Duration 292 ms by bot id=8882652437
+aiogram.event2026-10-08 22:13:24,323 INFO Update id=987253218 is handled. Duration 179 ms by bot id=8882652437
+aiogram.event2026-10-08 22:13:25,276 INFO Update id=987253219 is handled. Duration 176 ms by bot id=8882652437
+aiogram.event2026-10-08 22:13:26,339 INFO Update id=987253220 is handled. Duration 266 ms by bot id=8882652437
+aiogram.event2026-10-08 22:13:27,834 INFO Update id=987253221 is handled. Duration 174 ms by bot id=8882652437
+aiogram.event2026-10-08 22:13:29,541 INFO Update id=987253222 is handled. Duration 215 ms by bot id=8882652437
+aiogram.event2026-10-08 22:13:30,565 INFO Update id=987253223 is handled. Duration 167 ms by bot id=8882652437
+aiogram.event2026-10-08 22:13:31,948 INFO Update id=987253224 is handled. Duration 186 ms by bot id=8882652437
+aiogram.event2026-10-08 22:13:32,682 INFO Update id=987253225 is handled. Duration 200 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:09,027 INFO Update id=987253226 is handled. Duration 181 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:10,038 INFO Update id=987253227 is handled. Duration 173 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:10,790 INFO Update id=987253228 is handled. Duration 156 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:12,011 INFO Update id=987253229 is handled. Duration 161 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:13,270 INFO Update id=987253230 is handled. Duration 182 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:14,852 INFO Update id=987253231 is handled. Duration 192 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:15,664 INFO Update id=987253232 is handled. Duration 184 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:18,983 INFO Update id=987253233 is handled. Duration 208 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:21,497 INFO Update id=987253234 is handled. Duration 174 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:23,473 INFO Update id=987253235 is handled. Duration 673 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:24,721 INFO Update id=987253236 is handled. Duration 166 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:26,544 INFO Update id=987253237 is handled. Duration 196 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:28,121 INFO Update id=987253238 is handled. Duration 184 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:30,146 INFO Update id=987253239 is handled. Duration 161 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:31,628 INFO Update id=987253240 is handled. Duration 186 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:37,456 INFO Update id=987253241 is handled. Duration 197 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:39,046 INFO Update id=987253242 is handled. Duration 252 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:41,173 INFO Update id=987253243 is handled. Duration 179 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:42,634 INFO Update id=987253244 is handled. Duration 75 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:44,550 INFO Update id=987253245 is handled. Duration 94 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:45,503 INFO Update id=987253246 is handled. Duration 77 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:46,664 INFO Update id=987253247 is handled. Duration 84 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:48,169 INFO Update id=987253248 is handled. Duration 86 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:50,472 INFO Update id=987253249 is handled. Duration 79 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:55,895 INFO Update id=987253250 is handled. Duration 172 ms by bot id=8882652437
+aiogram.event2026-10-08 22:14:59,490 INFO Update id=987253251 is handled. Duration 172 ms by bot id=8882652437
+aiogram.event2026-10-08 22:15:01,618 INFO Update id=987253252 is handled. Duration 207 ms by bot id=8882652437
+aiogram.dispatcher2026-10-08 22:29:39,344 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 22:29:39,347 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 22:29:50,616 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 22:36:08,902 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 22:36:08,904 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 22:36:20,136 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 23:52:05,688 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-08 23:52:05,690 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-08 23:52:16,984 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 01:18:24,881 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 01:18:24,883 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 01:18:36,223 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 02:44:56,768 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-09 02:44:56,769 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 02:45:08,092 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 04:00:37,691 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 04:00:37,693 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 04:00:48,977 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 05:39:57,247 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-09 05:39:57,248 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 05:40:08,467 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 07:03:06,202 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-09 07:03:06,204 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 07:03:17,416 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 08:42:03,367 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+aiogram.dispatcher2026-10-09 08:42:03,369 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 08:42:14,658 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 10:47:06,660 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 10:47:06,661 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 10:47:17,949 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 12:02:44,783 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 12:02:44,785 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 12:02:56,092 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:16:02,621 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:16:02,623 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:17:14,618 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:17:14,620 WARNING Sleep for 1.392032 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:17:26,251 INFO Connection established (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:44:27,635 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:44:27,637 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:45:39,600 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:45:39,602 WARNING Sleep for 1.205685 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:46:51,595 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:46:51,598 WARNING Sleep for 1.527220 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:48:03,834 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:48:03,835 WARNING Sleep for 1.748811 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:49:22,219 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:49:22,220 WARNING Sleep for 2.438157 seconds and try again... (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:50:35,218 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:50:35,219 WARNING Sleep for 2.959129 seconds and try again... (tryings = 5, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:51:48,217 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:51:48,218 WARNING Sleep for 3.868887 seconds and try again... (tryings = 6, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:53:02,215 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:53:02,217 WARNING Sleep for 5.124562 seconds and try again... (tryings = 7, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:54:18,214 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:54:18,215 WARNING Sleep for 5.041231 seconds and try again... (tryings = 8, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:55:34,213 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:55:34,214 WARNING Sleep for 5.150319 seconds and try again... (tryings = 9, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:56:50,211 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:56:50,212 WARNING Sleep for 5.046298 seconds and try again... (tryings = 10, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:58:06,210 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:58:06,210 WARNING Sleep for 4.874982 seconds and try again... (tryings = 11, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 13:59:21,209 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 13:59:21,210 WARNING Sleep for 4.957049 seconds and try again... (tryings = 12, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:00:36,207 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:00:36,209 WARNING Sleep for 4.971672 seconds and try again... (tryings = 13, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:01:51,206 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:01:51,206 WARNING Sleep for 5.044442 seconds and try again... (tryings = 14, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:03:07,205 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:03:07,208 WARNING Sleep for 5.028704 seconds and try again... (tryings = 15, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:04:23,410 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:04:23,412 WARNING Sleep for 4.996662 seconds and try again... (tryings = 16, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:05:39,411 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:05:39,412 WARNING Sleep for 5.158352 seconds and try again... (tryings = 17, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:06:55,412 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:06:55,413 WARNING Sleep for 5.030453 seconds and try again... (tryings = 18, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:08:11,412 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:08:11,412 WARNING Sleep for 4.917994 seconds and try again... (tryings = 19, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:09:26,414 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:09:26,414 WARNING Sleep for 4.927606 seconds and try again... (tryings = 20, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:10:41,415 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:10:41,415 WARNING Sleep for 4.957029 seconds and try again... (tryings = 21, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:11:56,416 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:11:56,417 WARNING Sleep for 4.976660 seconds and try again... (tryings = 22, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:13:11,417 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:13:11,417 WARNING Sleep for 5.009695 seconds and try again... (tryings = 23, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:14:27,417 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:14:27,418 WARNING Sleep for 4.890222 seconds and try again... (tryings = 24, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:15:42,417 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:15:42,417 WARNING Sleep for 4.964955 seconds and try again... (tryings = 25, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:16:57,419 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:16:57,420 WARNING Sleep for 4.868693 seconds and try again... (tryings = 26, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:18:12,419 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:18:12,420 WARNING Sleep for 5.043139 seconds and try again... (tryings = 27, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:19:28,421 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:19:28,422 WARNING Sleep for 5.004818 seconds and try again... (tryings = 28, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:20:44,422 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:20:44,422 WARNING Sleep for 5.186894 seconds and try again... (tryings = 29, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:22:00,423 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:22:00,424 WARNING Sleep for 5.060395 seconds and try again... (tryings = 30, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:23:16,424 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:23:16,424 WARNING Sleep for 4.928839 seconds and try again... (tryings = 31, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:24:31,423 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:24:31,423 WARNING Sleep for 4.839819 seconds and try again... (tryings = 32, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:25:46,426 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:25:46,426 WARNING Sleep for 4.978754 seconds and try again... (tryings = 33, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:27:01,426 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:27:01,427 WARNING Sleep for 4.921874 seconds and try again... (tryings = 34, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:28:16,397 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:28:16,398 WARNING Sleep for 5.236520 seconds and try again... (tryings = 35, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:29:32,379 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:29:32,380 WARNING Sleep for 5.098154 seconds and try again... (tryings = 36, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:30:48,379 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:30:48,379 WARNING Sleep for 5.020420 seconds and try again... (tryings = 37, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:32:04,379 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:32:04,380 WARNING Sleep for 5.140844 seconds and try again... (tryings = 38, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:33:20,379 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:33:20,380 WARNING Sleep for 5.262665 seconds and try again... (tryings = 39, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:34:36,379 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:34:36,379 WARNING Sleep for 4.919041 seconds and try again... (tryings = 40, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:35:51,379 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:35:51,379 WARNING Sleep for 4.996750 seconds and try again... (tryings = 41, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:37:07,378 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:37:07,379 WARNING Sleep for 4.937176 seconds and try again... (tryings = 42, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:38:22,377 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 14:38:22,379 WARNING Sleep for 4.912057 seconds and try again... (tryings = 43, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 14:38:37,518 INFO Connection established (tryings = 44, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 15:02:53,639 WARNING Received SIGINT signal
+aiogram.dispatcher2026-10-09 15:02:53,643 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-10-09 15:02:53,643 INFO Polling stopped
+aiogram.dispatcher2026-10-09 15:02:55,694 INFO Start polling
+aiogram.dispatcher2026-10-09 15:02:55,989 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-10-09 15:52:29,927 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 15:52:29,929 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 15:52:41,180 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:14:51,985 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:14:51,988 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:16:03,982 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:16:03,984 WARNING Sleep for 1.281340 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:17:15,982 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:17:15,983 WARNING Sleep for 1.637321 seconds and try again... (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:18:27,982 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:18:27,983 WARNING Sleep for 2.092363 seconds and try again... (tryings = 3, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:19:40,982 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:19:40,984 WARNING Sleep for 2.706413 seconds and try again... (tryings = 4, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:20:53,983 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:20:53,984 WARNING Sleep for 3.558317 seconds and try again... (tryings = 5, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:22:07,982 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:22:07,984 WARNING Sleep for 4.695679 seconds and try again... (tryings = 6, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:23:23,003 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:23:23,004 WARNING Sleep for 4.954667 seconds and try again... (tryings = 7, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:24:38,018 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:24:38,018 WARNING Sleep for 5.046730 seconds and try again... (tryings = 8, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:25:54,018 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:25:54,019 WARNING Sleep for 4.994179 seconds and try again... (tryings = 9, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:27:09,019 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:27:09,021 WARNING Sleep for 4.894192 seconds and try again... (tryings = 10, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:28:24,020 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:28:24,021 WARNING Sleep for 5.010919 seconds and try again... (tryings = 11, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:29:40,021 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:29:40,021 WARNING Sleep for 4.963150 seconds and try again... (tryings = 12, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:30:55,021 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:30:55,022 WARNING Sleep for 4.989841 seconds and try again... (tryings = 13, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:32:10,022 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:32:10,023 WARNING Sleep for 5.078415 seconds and try again... (tryings = 14, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:33:26,023 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:33:26,023 WARNING Sleep for 5.141097 seconds and try again... (tryings = 15, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:34:42,023 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:34:42,024 WARNING Sleep for 4.943077 seconds and try again... (tryings = 16, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:35:57,024 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:35:57,024 WARNING Sleep for 5.021067 seconds and try again... (tryings = 17, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:37:13,025 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:37:13,026 WARNING Sleep for 5.194210 seconds and try again... (tryings = 18, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:38:29,025 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:38:29,027 WARNING Sleep for 4.957305 seconds and try again... (tryings = 19, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:39:44,027 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:39:44,028 WARNING Sleep for 5.084580 seconds and try again... (tryings = 20, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:41:00,026 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:41:00,028 WARNING Sleep for 5.155899 seconds and try again... (tryings = 21, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:42:16,029 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:42:16,030 WARNING Sleep for 5.017905 seconds and try again... (tryings = 22, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:43:32,028 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:43:32,029 WARNING Sleep for 5.028019 seconds and try again... (tryings = 23, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:44:48,032 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:44:48,033 WARNING Sleep for 4.833686 seconds and try again... (tryings = 24, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:46:03,030 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:46:03,031 WARNING Sleep for 4.926275 seconds and try again... (tryings = 25, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:47:18,031 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:47:18,032 WARNING Sleep for 4.970900 seconds and try again... (tryings = 26, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:48:33,001 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:48:33,003 WARNING Sleep for 4.947313 seconds and try again... (tryings = 27, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:49:47,999 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:49:48,000 WARNING Sleep for 4.975146 seconds and try again... (tryings = 28, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:51:03,000 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:51:03,001 WARNING Sleep for 5.010078 seconds and try again... (tryings = 29, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:52:19,000 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:52:19,002 WARNING Sleep for 4.868371 seconds and try again... (tryings = 30, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:53:34,000 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:53:34,002 WARNING Sleep for 4.919946 seconds and try again... (tryings = 31, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:54:49,000 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:54:49,001 WARNING Sleep for 4.966359 seconds and try again... (tryings = 32, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:56:04,000 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:56:04,002 WARNING Sleep for 4.900588 seconds and try again... (tryings = 33, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 16:59:06,578 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 16:59:06,579 WARNING Sleep for 4.948805 seconds and try again... (tryings = 34, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 17:00:21,566 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 17:00:21,568 WARNING Sleep for 5.141220 seconds and try again... (tryings = 35, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 17:16:59,447 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.166.110', 443)]
+aiogram.dispatcher2026-10-09 17:16:59,448 WARNING Sleep for 4.899981 seconds and try again... (tryings = 36, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 17:37:21,481 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.166.110', 443)]
+aiogram.dispatcher2026-10-09 17:37:21,482 WARNING Sleep for 5.031468 seconds and try again... (tryings = 37, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 17:55:30,803 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.166.110', 443)]
+aiogram.dispatcher2026-10-09 17:55:30,804 WARNING Sleep for 5.152865 seconds and try again... (tryings = 38, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 18:40:31,758 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.166.110', 443)]
+aiogram.dispatcher2026-10-09 18:40:31,759 WARNING Sleep for 5.032388 seconds and try again... (tryings = 39, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 18:41:49,131 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 18:41:49,133 WARNING Sleep for 4.929870 seconds and try again... (tryings = 40, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 18:43:04,126 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 18:43:04,127 WARNING Sleep for 4.986363 seconds and try again... (tryings = 41, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 18:43:19,415 INFO Connection established (tryings = 42, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 19:31:22,137 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 19:31:22,139 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 19:31:33,534 INFO Connection established (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 23:33:41,995 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 23:33:41,997 WARNING Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 23:34:53,990 ERROR Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+aiogram.dispatcher2026-10-09 23:34:53,993 WARNING Sleep for 1.271856 seconds and try again... (tryings = 1, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 23:35:05,613 INFO Connection established (tryings = 2, bot id = 8882652437)
+aiogram.dispatcher2026-10-09 23:50:28,614 WARNING Received SIGINT signal
+aiogram.dispatcher2026-10-09 23:50:28,616 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-10-09 23:50:28,616 INFO Polling stopped
+aiogram.dispatcher2026-10-09 23:50:30,307 INFO Start polling
+aiogram.dispatcher2026-10-09 23:50:30,642 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-10-09 23:50:56,540 INFO Update id=987253253 is handled. Duration 325 ms by bot id=8882652437
+aiogram.event2026-10-09 23:50:58,734 INFO Update id=987253254 is handled. Duration 161 ms by bot id=8882652437
+aiogram.event2026-10-09 23:51:00,355 INFO Update id=987253255 is handled. Duration 166 ms by bot id=8882652437
+aiogram.event2026-10-09 23:51:01,494 INFO Update id=987253256 is handled. Duration 161 ms by bot id=8882652437
+aiogram.event2026-10-09 23:51:02,846 INFO Update id=987253257 is handled. Duration 177 ms by bot id=8882652437
+aiogram.event2026-10-09 23:51:03,782 INFO Update id=987253258 is handled. Duration 162 ms by bot id=8882652437
+aiogram.event2026-10-09 23:51:05,063 INFO Update id=987253259 is handled. Duration 182 ms by bot id=8882652437
+aiogram.event2026-10-09 23:51:06,117 INFO Update id=987253260 is handled. Duration 149 ms by bot id=8882652437
+aiogram.event2026-10-09 23:51:09,135 INFO Update id=987253261 is handled. Duration 179 ms by bot id=8882652437
+aiogram.event2026-10-09 23:51:10,833 INFO Update id=987253262 is handled. Duration 72 ms by bot id=8882652437
+aiogram.event2026-10-09 23:51:15,873 INFO Update id=987253263 is handled. Duration 104 ms by bot id=8882652437
+aiogram.event2026-10-09 23:51:17,682 INFO Update id=987253264 is handled. Duration 101 ms by bot id=8882652437
+aiogram.event2026-10-09 23:53:18,837 INFO Update id=987253265 is handled. Duration 204 ms by bot id=8882652437
+aiogram.event2026-10-09 23:53:20,885 INFO Update id=987253266 is handled. Duration 225 ms by bot id=8882652437
+aiogram.event2026-10-09 23:53:21,820 INFO Update id=987253267 is handled. Duration 170 ms by bot id=8882652437
+aiogram.event2026-10-09 23:53:22,950 INFO Update id=987253268 is handled. Duration 184 ms by bot id=8882652437
+aiogram.event2026-10-09 23:53:24,224 INFO Update id=987253269 is handled. Duration 163 ms by bot id=8882652437
+aiogram.event2026-10-09 23:53:25,484 INFO Update id=987253270 is handled. Duration 190 ms by bot id=8882652437
+aiogram.dispatcher2026-10-10 00:04:17,569 WARNING Received SIGINT signal
+aiogram.dispatcher2026-10-10 00:04:17,570 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-10-10 00:04:17,570 INFO Polling stopped
+aiogram.dispatcher2026-10-10 00:04:19,271 INFO Start polling
+aiogram.dispatcher2026-10-10 00:04:19,623 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-10-10 00:04:22,966 INFO Update id=987253271 is handled. Duration 295 ms by bot id=8882652437
+aiogram.event2026-10-10 00:04:25,403 INFO Update id=987253272 is handled. Duration 105 ms by bot id=8882652437
+aiogram.event2026-10-10 00:04:27,583 INFO Update id=987253273 is handled. Duration 158 ms by bot id=8882652437
+aiogram.event2026-10-10 00:04:29,887 INFO Update id=987253274 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.event2026-10-10 00:04:39,545 INFO Update id=987253275 is handled. Duration 155 ms by bot id=8882652437
+aiogram.dispatcher2026-10-10 00:05:13,272 WARNING Received SIGINT signal
+aiogram.dispatcher2026-10-10 00:05:13,273 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-10-10 00:05:13,273 INFO Polling stopped
+aiogram.dispatcher2026-10-10 00:05:18,592 INFO Start polling
+aiogram.dispatcher2026-10-10 00:05:18,956 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-10-10 00:05:25,021 INFO Update id=987253276 is handled. Duration 311 ms by bot id=8882652437
+aiogram.event2026-10-10 00:05:27,789 INFO Update id=987253277 is handled. Duration 197 ms by bot id=8882652437
+aiogram.event2026-10-10 00:05:28,938 INFO Update id=987253278 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.event2026-10-10 00:05:31,739 INFO Update id=987253279 is handled. Duration 235 ms by bot id=8882652437
+aiogram.event2026-10-10 00:05:33,312 INFO Update id=987253280 is handled. Duration 168 ms by bot id=8882652437
+aiogram.event2026-10-10 00:05:34,002 INFO Update id=987253281 is handled. Duration 231 ms by bot id=8882652437
+aiogram.event2026-10-10 00:05:34,707 INFO Update id=987253282 is handled. Duration 151 ms by bot id=8882652437
+aiogram.event2026-10-10 00:05:36,169 INFO Update id=987253283 is handled. Duration 328 ms by bot id=8882652437
+aiogram.event2026-10-10 00:05:38,591 INFO Update id=987253284 is handled. Duration 153 ms by bot id=8882652437
+aiogram.event2026-10-10 00:05:40,201 INFO Update id=987253285 is not handled. Duration 2 ms by bot id=8882652437
+aiogram.event2026-10-10 00:05:40,201 ERROR Cause exception while process update id=987253285 by bot id=8882652437
+TypeError: prompts_kb() takes 3 positional arguments but 4 were given
+Traceback (most recent call last):
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 321, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 200, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 192, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/bot/handlers/commands.py", line 343, in cmd_choose_mode
+    text, kb = await render_prompts(callback.from_user.id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/bot/handlers/commands.py", line 129, in render_prompts
+    return header, prompts_kb(customs, page, pages, mode)
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: prompts_kb() takes 3 positional arguments but 4 were given
+aiogram.event2026-10-10 00:05:44,229 INFO Update id=987253286 is not handled. Duration 1 ms by bot id=8882652437
+aiogram.dispatcher2026-10-10 00:06:27,404 WARNING Received SIGINT signal
+aiogram.dispatcher2026-10-10 00:06:27,405 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-10-10 00:06:27,405 INFO Polling stopped
+aiogram.dispatcher2026-10-10 00:06:29,491 INFO Start polling
+aiogram.dispatcher2026-10-10 00:06:29,828 INFO Run polling for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.event2026-10-10 00:06:31,403 INFO Update id=987253287 is handled. Duration 302 ms by bot id=8882652437
+aiogram.event2026-10-10 00:06:32,620 INFO Update id=987253288 is handled. Duration 157 ms by bot id=8882652437
+aiogram.event2026-10-10 00:06:33,410 INFO Update id=987253289 is not handled. Duration 3 ms by bot id=8882652437
+aiogram.event2026-10-10 00:06:33,411 ERROR Cause exception while process update id=987253289 by bot id=8882652437
+TypeError: prompts_kb() takes 3 positional arguments but 4 were given
+Traceback (most recent call last):
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 321, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 200, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/router.py", line 192, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/.venv/lib/python3.14/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/bot/handlers/commands.py", line 343, in cmd_choose_mode
+    text, kb = await render_prompts(callback.from_user.id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksim/pr/aibottg/bot/handlers/commands.py", line 129, in render_prompts
+    return header, prompts_kb(customs, page, pages, mode)
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: prompts_kb() takes 3 positional arguments but 4 were given
+aiogram.dispatcher2026-10-10 00:45:51,447 WARNING Received SIGINT signal
+aiogram.dispatcher2026-10-10 00:45:51,450 INFO Polling stopped for bot @testdaunchlen67bot id=8882652437 - 'dauntest'
+aiogram.dispatcher2026-10-10 00:45:51,451 INFO Polling stopped

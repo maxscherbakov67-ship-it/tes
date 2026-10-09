@@ -5,8 +5,6 @@ class Botstate(StatesGroup):
     help = State()
     settings = State()
     choose_llm = State()
-    set_prompt = State()
-    create_prompt = State()
     conversation_menu = State()
     choose_mode = State()
     new_conversation = State()

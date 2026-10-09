@@ -12,16 +12,12 @@ choose_llm_msg,
 choose_mode_msg,
 new_conversation_msg,
 previous_conversations_msg,
-set_prompt_msg,
-create_prompt_msg
 )
 from bot.keyboards import (
 main_menu_keyboard,
 settings_keyboard,
 start_conversation_keyboard,
 goback_keyboard,
-set_prompt_keyboard,
-create_prompt_keyboard,
 choose_llm_keyboard,
 choose_mode_keyboard,
 new_conversation_keyboard,
@@ -45,9 +41,7 @@ BACK_ROUTES = {
     bst.help.state:                   (bst.start, welcome_msg, main_menu_keyboard),
     bst.settings.state:               (bst.start, welcome_msg, main_menu_keyboard),
     bst.conversation_menu.state:      (bst.start, welcome_msg, main_menu_keyboard),
-    bst.set_prompt.state:             (bst.settings, settings_msg, settings_keyboard),
     bst.choose_llm.state:             (bst.settings, settings_msg, settings_keyboard),
-    bst.choose_mode.state:            (bst.conversation_menu, start_conversation_msg, start_conversation_keyboard),
     bst.new_conversation.state:       (bst.conversation_menu, start_conversation_msg, start_conversation_keyboard),
     bst.previous_conversations.state: (bst.conversation_menu, start_conversation_msg, start_conversation_keyboard),
     RenameForm.waiting_title.state: (bst.conversation_menu, start_conversation_msg, start_conversation_keyboard),
@@ -125,12 +119,14 @@ async def on_chat(call: CallbackQuery, callback_data: ChatCB, state: FSMContext)
 
 # ---------- Промпты ----------
 
-async def render_prompts(user_id: int, page: int = 0):
+async def render_prompts(user_id: int, page: int = 0, mode: str = "apply"):
     total = await storage.count_custom_prompts(user_id)
     page = storage.clamp_page(page, total)
     pages = storage.total_pages(total)
     customs = await storage.get_custom_prompts_page(user_id, page)
-    return "Выберите роль для текущего диалога:", prompts_kb(customs, page, pages)
+    header = "Выберите роль для текущего диалога:" if mode == "apply" \
+        else "📚 Библиотека промптов: нажми, чтобы посмотреть или изменить."
+    return header, prompts_kb(customs, page, pages, mode)
 
 
 @router.message(Command("prompts"))
@@ -145,8 +141,9 @@ async def on_prompt(call: CallbackQuery, callback_data: PromptCB, state: FSMCont
     action = callback_data.action
 
     if action == "new":
-        await state.set_state(PromptForm.waiting_text)
-        await call.message.answer("Отправьте текст промпта:", reply_markup=goback_keyboard())
+        await state.update_data(return_state=await state.get_state())
+        await state.set_state(PromptForm.waiting_title)
+        await call.message.answer("📛 Пришли название промпта:")
         return await call.answer()
 
     if action == "view":  # посмотреть пресет
@@ -330,20 +327,6 @@ async def cmd_settings(callback: CallbackQuery, state: FSMContext):
     await state.set_state(bst.settings)
     await callback.message.edit_text(settings_msg, reply_markup=settings_keyboard())
     await callback.answer()
-#ПОСТАВИТЬ/ВЫБРАТЬ ПРОМПТ
-@router.callback_query(bst.settings, F.data == "set_prompt")
-async def cmd_set_prompt(callback: CallbackQuery, state: FSMContext):
-    callback_data = callback.data
-    await state.set_state(bst.set_prompt)
-    await callback.message.edit_text(set_prompt_msg, reply_markup=set_prompt_keyboard())
-    await callback.answer()
-#СОЗДАТЬ ПРОМПТ
-@router.callback_query(bst.set_prompt, F.data == "create_prompt")
-async def cmd_create_prompt(callback: CallbackQuery, state: FSMContext):
-    callback_data = callback.data
-    await state.set_state(bst.create_prompt)
-    await callback.message.edit_text(create_prompt_msg, reply_markup=create_prompt_keyboard())
-    await callback.answer()
 
 
 #МЕНЮ ДИАЛОГОВ/ЧАТОВ 
@@ -357,7 +340,7 @@ async def cmd_start_conversation(callback: CallbackQuery, state: FSMContext):
 @router.callback_query(bst.conversation_menu, F.data == "choose_mode")
 async def cmd_choose_mode(callback: CallbackQuery, state: FSMContext):
     await state.set_state(bst.choose_mode)
-    text, kb = await render_prompts(callback.from_user.id)  # ← живая клавиатура prompts_kb
+    text, kb = await render_prompts(callback.from_user.id)
     await callback.message.edit_text(text, reply_markup=kb)
     await callback.answer()
 #НОВЫЙ ДИАЛОГ/ЧАТ

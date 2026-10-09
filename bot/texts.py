@@ -5,6 +5,5 @@ start_conversation_msg = "💬 Меню диалогов"
 choose_llm_msg = "🤖 Выберите модель"
 choose_mode_msg = "🎭 Выберите режим"
 new_conversation_msg = "✨ Новый диалог"
-previous_conversations_msg = "📜 История диалогов"  # обрати внимание на одно подчеркивание
-set_prompt_msg = "📝 Выберите или создайте промпт"
+previous_conversations_msg = "📜 История диалогов"
 create_prompt_msg = "✏️ Создание нового промпта"

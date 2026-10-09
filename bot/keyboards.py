@@ -76,23 +76,20 @@ def prompts_kb(customs, page: int, pages: int) -> InlineKeyboardMarkup:
         builder.button(text=title, callback_data=PromptCB(action="preset", id=pid, page=page))
         builder.button(text="👁", callback_data=PromptCB(action="view", id=pid, page=page))
     builder.adjust(2)
-
     for p in customs:
-        title = p["title"]
-        if len(title) > 22:
-            title = title[:21] + "…"
+        t = p["title"][:21] + "…" if len(p["title"]) > 22 else p["title"]
         builder.row(
-            InlineKeyboardButton(text=f"⭐ {title}", callback_data=PromptCB(action="custom", id=p["id"], page=page).pack()),
+            InlineKeyboardButton(text=f"⭐ {t}", callback_data=PromptCB(action="custom", id=p["id"], page=page).pack()),
             InlineKeyboardButton(text="⚙️", callback_data=PromptCB(action="manage", id=p["id"], page=page).pack()),
         )
-    add_pagination(builder, page, pages, lambda p: PromptCB(action="page", page=p).pack())
+    add_pagination(builder, page, pages, lambda pg: PromptCB(action="page", page=pg).pack())
     builder.row(
         InlineKeyboardButton(text="✏️ Свой промпт", callback_data=PromptCB(action="new").pack()),
         InlineKeyboardButton(text="⬅️ Выйти назад", callback_data="back_to_start"),
     )
     return builder.as_markup()
 
-def prompt_manage_kb(prompt, page: int) -> InlineKeyboardMarkup:
+def prompt_manage_kb(prompt, page: int, mode: str = "apply") -> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
     builder.row(InlineKeyboardButton(text="✅ Применить", callback_data=PromptCB(action="custom", id=prompt["id"], page=page).pack()))
     builder.row(InlineKeyboardButton(text="✏️ Переименовать", callback_data=PromptCB(action="rename", id=prompt["id"], page=page).pack()))
@@ -101,7 +98,7 @@ def prompt_manage_kb(prompt, page: int) -> InlineKeyboardMarkup:
     builder.row(InlineKeyboardButton(text="⬅️ К списку промптов", callback_data=PromptCB(action="page", page=page).pack()))
     return builder.as_markup()
 
-def prompt_view_kb(pid: int, page: int) -> InlineKeyboardMarkup:
+def prompt_view_kb(pid: int, page: int, mode: str = "apply") -> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
     builder.row(InlineKeyboardButton(text="✅ Применить", callback_data=PromptCB(action="preset", id=pid, page=page).pack()))
     builder.row(InlineKeyboardButton(text="⬅️ К списку промптов", callback_data=PromptCB(action="page", page=page).pack()))
@@ -133,7 +130,7 @@ def main_menu_keyboard() -> InlineKeyboardMarkup:
 def settings_keyboard() -> InlineKeyboardMarkup:
     keyboard= [
         [
-        InlineKeyboardButton(text="Создать режим работы(промпт)", callback_data="set_prompt")
+        InlineKeyboardButton(text="ЗАГЛУШКА", callback_data="VOID")
         ],
         [
         InlineKeyboardButton(text="Выбрать модель", callback_data="choose_llm")
@@ -168,16 +165,10 @@ def goback_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(inline_keyboard=keyboard)
 
 def set_prompt_keyboard() -> InlineKeyboardMarkup:
-    keyboard= [
-        [
-        InlineKeyboardButton(text="Выбрать существующий промпт", callback_data="new_conversation"),
-        ],
-        [
-        InlineKeyboardButton(text="Создать новый промпт", callback_data="previous_conversations"),
-        ],
-        [
-        InlineKeyboardButton(text="Выйти назад", callback_data="back_to_start"),
-        ],
+    keyboard = [
+        [InlineKeyboardButton(text="Выбрать существующий промпт", callback_data="open_prompts_manage")],
+        [InlineKeyboardButton(text="Создать новый промпт", callback_data="create_prompt")],
+        [InlineKeyboardButton(text="Выйти назад", callback_data="back_to_start")],
     ]
     return InlineKeyboardMarkup(inline_keyboard=keyboard)
 
